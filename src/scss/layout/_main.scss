@@ -1,16 +1,42 @@
-// .section1 {
-//   width: 320px;
-//   height: 376px;
-//   display: flex;
-//   flex-direction: column;
-//   align-items: center;
-//   position: relative;
-// }
-// .tips {
-//   background: yellow;
-//   width: 100%;
-// }
-// .imsomnia {
-//   color: #8ccbea;
-//   font-size: 14px;
-// }
+.main {
+  font-family: "Roboto";
+  background: white;
+}
+.tips {
+  width: 320px;
+  height: 376px;
+  margin-left: 15px;
+}
+.main-title {
+  color: #8ccbea;
+  font-size: 14px;
+  margin-top: 30px;
+  width: 90px;
+  height: 30px;
+}
+.main-subtitle {
+  color: #000000;
+  font-weight: bold;
+  font-size: 24;
+  margin-top: 1px;
+  width: 290px;
+  height: 60px;
+}
+.main-paragraph {
+  color: #4a4a4a;
+  font-size: 18px;
+  line-height: 1.67;
+  width: 290px;
+  height: 120px;
+  margin: 136px, 15px, 120px, 15px;
+}
+.main-button {
+  width: 76px;
+  height: 45px;
+  background: white;
+  border: 2px solid #f26002;
+  border-radius: 22.5px;
+  margin-top: 30px;
+  //   border-bottom: #f26002;
+  //   border: ;
+}
