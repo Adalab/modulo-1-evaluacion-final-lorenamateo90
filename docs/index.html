@@ -8,17 +8,14 @@
       href="https://fonts.googleapis.com/css?family=Roboto&display=swap"
       rel="stylesheet"
     />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./assets/css/main.css" />
   </head>
   <body>
-    <header class="header">
-      <!-- <div class="hero-image"> -->
-      <!-- <img
-          src="./assets/images/cover.jpg"
-          alt="Imagen de Nueva York"
-          title="Imagen de Nueva York"
-        /> -->
-      <!-- </div> -->
+    <header id="header" class="header">
       <div class="ico-menu">
         <a
           href="https://adalab.es"
@@ -38,8 +35,8 @@
           <span class="title-inner">Anonymous</span>
           <span class="title-inner">proxy</span>
         </h1>
-        <p>In hac habitasse platea dictumst</p>
-        <a class="title-button" href="#">
+        <p class="title-description">In hac habitasse platea dictumst</p>
+        <a class="title-button" href="#main-section">
           <img
             src="./assets/images/ico-scroll-down.svg"
             alt="enlace a 3 reasons
@@ -62,9 +59,9 @@
           <button class="main-button">Go</button>
         </div>
       </section>
-      <section class="main-section">
-        <div class="reasons-title">
-          <h2 class="second-title">3 reasons to purchase</h2>
+      <section id="main-section" class="main-section">
+        <h2 class="second-title">3 reasons to purchase</h2>
+        <div class="container">
           <div class="reasons">
             <h3 class="third-title">Ut sed metus</h3>
             <p class="paragraph">Lorem ipsum dolor sit amet, consecteur.</p>
@@ -77,105 +74,116 @@
             <h3 class="third-title">Morbi dictum</h3>
             <p class="paragraph">Aliquam in dolor et dolor tincidunt</p>
           </div>
+        </div>
+        <div class="button-reasons">
           <button class="second-button">More reasons</button>
         </div>
       </section>
-      <div>
-        <a class="arrow-button" href="#">
+    </main>
+
+    <footer class="footer">
+      <div class="bottom-button">
+        <a class="arrow-button" href="#header">
           <img
             src="./assets/images/ico-arrow.svg"
-            alt="enlace a 3 reasons
-        to purchase"
-            title="enlace a 3 reasons to purchase"
+            alt="enlace a inicio de página"
+            title="enlace a inicio de página"
           />
         </a>
       </div>
-    </main>
-
-    <footer>
-
-      <small>
-        
-    &copy 2017
-        
-      We <span>❤️</span>components
-    </small>
-      <div class= links>
-      <nav>
-        <ul>
-          <li>
-            <a
-              href="https://adalab.es"
-              alt="Escuela Digital Adalab"
-              title="Escuela digital Adalab"
-              >Articles</a
-            >
-          </li>
-          <li>
-            <a
-              href="https://adalab.es"
-              alt="Escuela Digital Adalab"
-              title="Escuela digital Adalab"
-              >Books</a
-            >
-          </li>
-          <li>
-            <a
-              href="https://adalab.es"
-              alt="Escuela Digital Adalab"
-              title="Escuela digital Adalab"
-              >Events</a
-            >
-          </li>
-          <li>
-            <a
-              href="https://adalab.es"
-              alt="Escuela Digital Adalab"
-              title="Escuela digital Adalab"
-              >Reasons</a
-            >
-          </li>
-          <li>
-            <a
-              href="https://adalab.es"
-              alt="Escuela Digital Adalab"
-              title="Escuela digital Adalab"
-              >Tips</a
-            >
-          </li>
-        </ul>
+      <div class="menus">
+        <div class="menu">
+          <nav class="nav">
+            <ul class="list">
+              <li>
+                <a
+                  class="link"
+                  href="https://adalab.es"
+                  alt="Escuela Digital Adalab"
+                  title="Escuela digital Adalab"
+                  >Articles</a
+                >
+              </li>
+              <li>
+                <a
+                  class="link"
+                  href="https://adalab.es"
+                  alt="Escuela Digital Adalab"
+                  title="Escuela digital Adalab"
+                  >Books</a
+                >
+              </li>
+              <li>
+                <a
+                  class="link"
+                  href="https://adalab.es"
+                  alt="Escuela Digital Adalab"
+                  title="Escuela digital Adalab"
+                  >Events</a
+                >
+              </li>
+              <li>
+                <a
+                  class="link"
+                  href="https://adalab.es"
+                  alt="Escuela Digital Adalab"
+                  title="Escuela digital Adalab"
+                  >Reasons</a
+                >
+              </li>
+              <li>
+                <a
+                  class="link"
+                  href="https://adalab.es"
+                  alt="Escuela Digital Adalab"
+                  title="Escuela digital Adalab"
+                  >Tips</a
+                >
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <div class="social-menu">
+          <nav>
+            <ul class="list">
+              <li>
+                <a
+                  class="link"
+                  href="https://adalab.es"
+                  alt="Escuela Digital Adalab"
+                  title="Escuela digital Adalab"
+                  >Twitter</a
+                >
+              </li>
+              <li>
+                <a
+                  class="link"
+                  href="https://adalab.es"
+                  alt="Escuela Digital Adalab"
+                  title="Escuela digital Adalab"
+                  >Instagram</a
+                >
+              </li>
+              <li>
+                <a
+                  class="link"
+                  href="https://adalab.es"
+                  alt="Escuela Digital Adalab"
+                  title="Escuela digital Adalab"
+                  >Mastodon.social</a
+                >
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <div class="small">
+          <small>
+            <span class="copy"> &copy 2017 </span>
+            <span class="copy"> we <span class="heart">❤︎ </span>components </span>
+          </small>
+        </div>
       </div>
-      </nav>
-      <div class=social-media>
-      <nav>
-        <ul>
-          <li>
-            <a
-              href="https://adalab.es"
-              alt="Escuela Digital Adalab"
-              title="Escuela digital Adalab"
-              >Twitter</a
-            >
-          </li>
-          <li>
-            <a
-              href="https://adalab.es"
-              alt="Escuela Digital Adalab"
-              title="Escuela digital Adalab"
-              >Instagram</a
-            >
-          </li>
-          <li>
-            <a
-              href="https://adalab.es"
-              alt="Escuela Digital Adalab"
-              title="Escuela digital Adalab"
-              >Mastodon.social</a
-            >
-          </li>
-        </ul>
-      </nav>
-    </div>
     </footer>
+
   </body>
 </html>
