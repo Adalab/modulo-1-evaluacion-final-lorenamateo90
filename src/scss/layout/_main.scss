@@ -1,7 +1,7 @@
 // main
 
 .main {
-  font-family: "Roboto";
+  font-family: "roboto";
   width: 100%;
   line-height: 30px;
 }
@@ -17,8 +17,6 @@
   margin-top: 30px;
   margin-bottom: 1px;
   text-transform: capitalize;
-
-  // font-family: "Roboto";
 }
 
 .main-subtitle {
@@ -31,7 +29,6 @@
 }
 
 .main-paragraph {
-  // font-family: "Roboto";
   color: #4a4a4a;
   font-size: 18px;
   margin-top: 15px;
@@ -46,9 +43,12 @@
   margin-top: 30px;
   margin-bottom: 45px;
   color: #f26002;
-  // font-family: Roboto;
   font-size: 20px;
   text-align: center;
+  transition: border ease 10s;
+}
+.main-button:hover {
+  border: rgb(0, 13, 128);
 }
 // section 2
 
@@ -59,9 +59,8 @@
   align-items: center;
 }
 .reasons {
-  margin-top: 45px;
-  margin-left: 70px;
-  margin-right: 70px;
+  margin-left: 35px;
+  margin-right: 35px;
   text-align: center;
 }
 
@@ -84,6 +83,7 @@
   text-transform: capitalize;
   text-align: center;
   padding-top: 30px;
+  padding-bottom: 45px;
 }
 
 .third-title {
@@ -117,8 +117,9 @@
 }
 .button-reasons {
   display: flex;
-  // align-items: center;
-  // justify-content: center;
+}
+.button-reasons:hover {
+  background: yellow;
 }
 .arrow-button {
   width: 45px;
@@ -151,6 +152,8 @@
   .container {
     flex-direction: row;
     justify-content: center;
+    padding-left: 10px;
+    padding-right: 10px;
     // margin: 40px;
   }
   .button-reasons {
