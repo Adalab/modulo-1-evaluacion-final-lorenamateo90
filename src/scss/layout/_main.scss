@@ -1,10 +1,11 @@
 // main
 
 .main {
-  font-family: "roboto";
+  font-family: $font-main;
   width: 100%;
   line-height: 30px;
 }
+
 // section 1
 
 .tips {
@@ -14,8 +15,7 @@
 .main-title {
   color: #8ccbea;
   font-size: 14px;
-  margin-top: 30px;
-  margin-bottom: 1px;
+  margin: 30px 0 1px 0;
   text-transform: capitalize;
 }
 
@@ -37,42 +37,39 @@
 .main-button {
   width: 76px;
   height: 45px;
-  background: white;
-  border: 2px solid #f26002;
+  background: $primary-color;
+  border: 2px solid $button-color;
   border-radius: 22.5px;
   margin-top: 30px;
   margin-bottom: 45px;
-  color: #f26002;
+  color: $button-color;
   font-size: 20px;
   text-align: center;
-  transition: border ease 10s;
-}
-.main-button:hover {
-  border: rgb(0, 13, 128);
 }
 // section 2
 
 .main-section {
-  background-color: #eff9ff;
+  background-color: $main-color;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
+
 .reasons {
-  margin-left: 30px;
-  margin-right: 30px;
+  margin: 0 30px;
   text-align: center;
+  margin: 0 30px 30px;
 }
 
 .reasons-title {
   margin-left: 15px;
   padding-top: 30px;
 }
+
 .container {
   width: 100%;
   display: flex;
   flex-direction: column;
-  align-content: center;
 }
 
 .second-title {
@@ -82,8 +79,7 @@
   font-weight: bold;
   text-transform: capitalize;
   text-align: center;
-  padding-top: 30px;
-  padding-bottom: 45px;
+  padding: 30px 0 45px 0;
 }
 
 .third-title {
@@ -97,81 +93,83 @@
   font-size: 18px;
   color: #000000;
 }
+
 .second-button {
   width: 184px;
   height: 45px;
   border-radius: 22.5px;
-  background-color: #f26002;
-  margin-top: 45px;
+  background-color: $button-color;
   margin-bottom: 60px;
-  color: white;
+  color: $primary-color;
   font-size: 20px;
   font-weight: 500;
   align-items: center;
   border: none;
   transition: ease 0.5s;
 }
+
 .second-button:hover {
   background: #304268;
-}
-.button-reasons {
-  display: flex;
 }
 
 @media all and (min-width: 768px) {
   .tips {
     margin-left: 39px;
   }
+
   .main-subtitle {
     font-size: 26px;
     margin-bottom: 30px;
   }
+
   .main-paragraph {
     font-size: 20px;
     margin-right: 39px;
   }
+
   .main-button {
-    margin-top: 30px;
-    margin-bottom: 60px;
+    width: 91px;
+    margin: 30px 0 60px 0;
   }
+
   .container {
     flex-direction: row;
     justify-content: center;
-    padding-left: 10px;
-    padding-right: 10px;
-    // margin: 40px;
+    padding: 0 10px;
   }
-  .button-reasons {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
+
   .second-title {
     font-size: 26px;
   }
+
   .third-title {
     font-size: 24px;
   }
+
   .paragraph {
     font-size: 20px;
   }
+
   .second-button {
     width: 210px;
     margin-top: 60px;
     margin-bottom: 60px;
-    color: white;
+    color: $primary-color;
     font-size: 20px;
     font-weight: 500;
   }
 }
+
 @media all and (min-width: 1200px) {
   .tips {
     margin-left: 275px;
   }
+
   .main-title {
     font-size: 16px;
     margin-top: 60px;
   }
+
   .main-subtitle {
     font-size: 32px;
   }
@@ -182,7 +180,6 @@
 
   .main-button {
     width: 160px;
-    height: 45px;
   }
 
   .second-title {
@@ -192,6 +189,7 @@
   .second-button {
     width: 255px;
   }
+
   .reasons {
     margin: 0 35px;
   }
